@@ -10,6 +10,7 @@
       />
     </div>
   </div>
+  <ParentComponent></ParentComponent>
 </template>
 
 <script setup lang="ts">
