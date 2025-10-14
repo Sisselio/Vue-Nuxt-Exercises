@@ -1,11 +1,10 @@
 <script setup lang="ts">
+import TheCounter from "./components/TheCounter.vue";
 import TheTitle from "./components/TheTitle.vue";
 </script>
 
 <template>
   <div>
-    <TheTitle greeting="Hola mundo">
-      <p>Hola mundo</p>
-    </TheTitle>
+    <TheCounter></TheCounter>
   </div>
 </template>
