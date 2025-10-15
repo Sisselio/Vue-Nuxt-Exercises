@@ -1,9 +1,8 @@
 import { ChildComponent } from '../../.nuxt/components';
 <template>
-  <ChildComponent @event="notify()"></ChildComponent>
+  <slot></slot>
 </template>
 <script setup>
-function notify() {
-  console.log("hola");
-}
+const message = "Hola mundo";
+provide("message", message);
 </script>
