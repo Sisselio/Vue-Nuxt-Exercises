@@ -2,12 +2,10 @@
   <TheTitle>Contador:</TheTitle>
   <p>{{ counter }}</p>
 
-  <IncrementButton v-if="counter <= 9" @increment="counter++" />
-  <DecrementButton v-if="counter >= 1" @decrement="counter--" />
+  <IncrementButton v-if="counter <= 9" @increment="increment" />
+  <DecrementButton v-if="counter >= 1" @decrement="decrement" />
 </template>
 
 <script setup>
-import { ref } from "vue";
-
-const counter = ref(5);
+const { counter, increment, decrement } = useCounter();
 </script>

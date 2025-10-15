@@ -1,4 +1,3 @@
-import { ChildComponent } from '../../.nuxt/components';
 <template>
   <slot></slot>
 </template>
