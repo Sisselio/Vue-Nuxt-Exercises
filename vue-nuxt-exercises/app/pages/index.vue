@@ -10,11 +10,13 @@
       />
     </div>
   </div>
-  <ParentComponent></ParentComponent>
+  <ParentComponent>
+    <ChildComponent></ChildComponent>
+  </ParentComponent>
 </template>
 
 <script setup lang="ts">
-import ProductCard from "~/components/ProductCard.vue";
+// import ProductCard from "~/components/ProductCard.vue";
 import { products } from "~/data/mock";
 </script>
 
