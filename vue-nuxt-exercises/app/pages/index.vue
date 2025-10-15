@@ -10,6 +10,7 @@
       />
     </div>
   </div>
+  <TheCounter></TheCounter>
   <ParentComponent>
     <ChildComponent></ChildComponent>
   </ParentComponent>
