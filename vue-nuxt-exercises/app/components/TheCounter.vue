@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import { useCounterStore } from "../stores/useCounterStore";
+import { counter } from "../stores/counter";
 import { storeToRefs } from "pinia";
 
 const counterStore = useCounterStore();

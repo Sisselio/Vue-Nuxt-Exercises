@@ -24,6 +24,7 @@ defineProps<{
 const addToCart = () => {
   alert("Producto agregado al carrito");
 };
+// ya esta tipado
 </script>
 
 <style scoped>
